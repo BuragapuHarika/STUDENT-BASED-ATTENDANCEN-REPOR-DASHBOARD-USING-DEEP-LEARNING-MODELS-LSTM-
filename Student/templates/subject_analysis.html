@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Wise Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            text-align: center;
+        }
+        .button {
+            padding: 10px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #217dbb;
+        }
+    </style>
+</head>
+<body>
+    <h2>Subject Wise Analysis</h2>
+    <div class="container">
+        <h3>Registration No: {{ reg_no }}</h3>
+        <p>Detailed subject analysis will be displayed here.</p>
+        <button class="button" onclick="window.location.href='/'">Back to Home</button>
+    </div>
+</body>
+</html>
